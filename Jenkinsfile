@@ -1,6 +1,7 @@
-agent {
-    docker {
-        image 'maven:3.9.0-eclipse-temurin-11'
+pipeline {
+	agent {
+		docker {
+			image 'maven:3.9.0-eclipse-temurin-11'
                 args  '-v /.m2:/root/.m2'
     }
 }
@@ -11,3 +12,4 @@ stages {
             }
         }
     }
+}
