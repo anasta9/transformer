@@ -3,17 +3,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>m2i</groupId>
-	<artifactId>java-maven</artifactId>
+	<artifactId>transformer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>exo01</name>
-
-	<dependencies>
-		<dependency>
-			<groupId>maven-server-client</groupId>
-			<artifactId>ex</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-	</dependencies>
 
 	<properties>
 		<maven.compiler.source>17</maven.compiler.source>
