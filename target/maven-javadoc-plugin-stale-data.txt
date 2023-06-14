@@ -1,0 +1,45 @@
+@options
+@packages
+--class-path
+'C:/Users/Administrateur/Documents/java-maven/target/classes;C:/Users/Administrateur/.m2/repository/maven-server-client/ex/0.0.1-SNAPSHOT/ex-0.0.1-SNAPSHOT.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'C:/Users/Administrateur/Documents/java-maven/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Administrateur/Documents/java-maven/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'exo01 0.0.1-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'exo01 0.0.1-SNAPSHOT API'
+exo
+C:\Users\Administrateur\Documents\java-maven\src\main\java = 1686645365574
+C:\Users\Administrateur\Documents\java-maven\target\site\apidocs\allclasses-index.html = 1686666655519
+C:\Users\Administrateur\Documents\java-maven\target\site\apidocs\allpackages-index.html = 1686666655521
+C:\Users\Administrateur\Documents\java-maven\target\site\apidocs\copy.svg = 1686666655547
+C:\Users\Administrateur\Documents\java-maven\target\site\apidocs\element-list = 1686666655477
+C:\Users\Administrateur\Documents\java-maven\target\site\apidocs\help-doc.html = 1686666655542
+C:\Users\Administrateur\Documents\java-maven\target\site\apidocs\index-all.html = 1686666655535
+C:\Users\Administrateur\Documents\java-maven\target\site\apidocs\index.html = 1686666655537
+C:\Users\Administrateur\Documents\java-maven\target\site\apidocs\jquery-ui.overrides.css = 1686666655577
+C:\Users\Administrateur\Documents\java-maven\target\site\apidocs\member-search-index.js = 1686666655525
+C:\Users\Administrateur\Documents\java-maven\target\site\apidocs\module-search-index.js = 1686666655522
+C:\Users\Administrateur\Documents\java-maven\target\site\apidocs\overview-tree.html = 1686666655507
+C:\Users\Administrateur\Documents\java-maven\target\site\apidocs\package-search-index.js = 1686666655523
+C:\Users\Administrateur\Documents\java-maven\target\site\apidocs\script.js = 1686666655546
+C:\Users\Administrateur\Documents\java-maven\target\site\apidocs\search.js = 1686666655550
+C:\Users\Administrateur\Documents\java-maven\target\site\apidocs\stylesheet.css = 1686666655544
+C:\Users\Administrateur\Documents\java-maven\target\site\apidocs\tag-search-index.js = 1686666655526
+C:\Users\Administrateur\Documents\java-maven\target\site\apidocs\type-search-index.js = 1686666655524
