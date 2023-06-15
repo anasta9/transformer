@@ -10,7 +10,7 @@
 	<properties>
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
-		<sonar-maven-plugin.version>3.9.1.2184</sonar-maven-plugin.version>
+		<sonar-maven-plugin.version>3.9.2.3291</sonar-maven-plugin.version>
 	</properties>
 
 	<reporting>
