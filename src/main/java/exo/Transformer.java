@@ -17,8 +17,7 @@ import org.slf4j.LoggerFactory;
  **/
 
 public class Transformer {
-	
-	
+
 	private HashMap<String, String> tokens = new HashMap<String, String>();
 
 	public void addToken(String token, String value) {
@@ -53,14 +52,10 @@ public class Transformer {
 
 	public static void main(String[] args) {
 		Logger logger = LoggerFactory.getLogger(Main.class);
-	
+
 		String message = "This is just a message to {name} who lives at {address} and works at {company}, you can call on {phone}";
-        logger.info(message);
+		logger.info(message);
 		Transformer transformer = new Transformer();
-		
-		
-		// Transformer georgeTransformer = new Transformer("name", "address", "phone",
-		// "company");
 
 		transformer.addToken("name", "George");
 		transformer.addToken("address", "78, rue Will Smith");
@@ -69,11 +64,10 @@ public class Transformer {
 		System.out.println(transformer.toString());
 		System.out.println(transformer.transform(message));
 
-		
 		logger.debug("Debug log message");
-        logger.info("Info log message");
-        logger.error("Error log message");
-        logger.warn("Warn log message");
+		logger.info("Info log message");
+		logger.error("Error log message");
+		logger.warn("Warn log message");
 
-}
+	}
 }
