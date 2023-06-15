@@ -1,9 +1,12 @@
 package exo;
 
-import java.util.HashMap;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class Main {
 	public static void main(String[] args) {
+		Logger logger = LoggerFactory.getLogger(Main.class);
+		
 		String message = "This is just a message to {name} who lives at {address} and works at {company}, you can call on {phone}";
 
 		Transformer transformer = new Transformer();
@@ -16,7 +19,9 @@ public class Main {
 		transformer.addToken("{company}", "Amazon");
 		System.out.println(transformer.toString());
 
-		
-
+		logger.debug("Debug log message");
+        logger.info("Info log message");
+        logger.error("Error log message");
+        logger.warn("Warn log message");
 	}
 }
